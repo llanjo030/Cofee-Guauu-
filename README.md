@@ -172,6 +172,69 @@
     z-index: 1001;
   }
 
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode label,
+body.dark-mode select,
+body.dark-mode strong {
+  color: #fff !important;
+}
+body.dark-mode select {
+  background-color: #444;
+  border: 1px solid #666;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode label,
+body.dark-mode select,
+body.dark-mode strong {
+  color: #f5f5f5 !important;
+}
+
+body.dark-mode select {
+  background-color: #2b2b2b;
+  border: 1px solid #666;
+  color: #f5f5f5;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode label,
+body.dark-mode strong {
+  color: #f5f5f5 !important;
+  text-shadow: none !important;
+}
+
+body.dark-mode select {
+  background-color: #2b2b2b;
+  color: #f5f5f5;
+  border: none;
+}
+
+body.dark-mode .menu-item {
+  background-color: #333 !important;
+  color: #f5f5f5 !important;
+}
+</style>
+
+<style>
+  #filtro-menu, #filtro-menu option, #filtro-menu + script, #filtro-menu-container {
+    display: none;
+  }
+
+  #menu #filtro-menu, 
+  #menu #filtro-menu + script, 
+  #menu #filtro-menu-container {
+    display: block;
+  }
 </style>
 </head>
 <body>
@@ -188,29 +251,75 @@
 <section id="bienvenida">
 <h2>Bienvenidos</h2>
 <p style="text-align:center;">En Café ¡Guauu! celebramos el amor por el café y por los animales. Nuestra cafetería pet-friendly te espera con un ambiente único, productos de calidad y espacio para que tu lomito disfrute contigo.</p>
+
+<div style="margin-top: 40px; text-align: center;">
+
+
+</div>
+<div style="margin-top: 50px; text-align: center;">
+<h3 style="color: #5d4037;">🎉 Próximos Eventos y Promociones</h3>
+<p style="margin-top: 10px;">📅 <strong>Martes de Mascotas:</strong> Todas las galletas perrunas al 2x1</p>
+<p>☕ <strong>Viernes de Café:</strong> 10% de descuento en todos los Latte</p>
+<p>🎈 <strong>Evento especial:</strong> Concurso de disfraces para mascotas (Domingo 30 de junio)</p>
+</div>
+
+<div style="margin-top: 40px; text-align: center;">
+<h3 style="color: #5d4037;">📍 ¿Dónde Estamos?</h3>
+<p>Av. Instituto Politécnico Nacional 1843, Lindavista, CDMX</p>
+<iframe allowfullscreen="" height="250" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Av.+Instituto+Polit%C3%A9cnico+Nacional+1843,+Lindavista,+CDMX&amp;output=embed" style="border:0; border-radius:12px; margin-top:15px;" width="90%"></iframe>
+</div>
+<div style="margin-top: 40px; text-align: center;">
+<h3 style="color: #5d4037;">🕒 Horarios</h3>
+<p><strong>Abierto todos los días</strong></p>
+<p><strong>Lunes a Viernes:</strong> 7:00 am - 9:00 pm</p>
+<p><strong>Sábados y Domingos:</strong> 8:00 am - 6:00 pm</p>
+</div>
 </section>
 
-<div style="text-align:center; margin-bottom: 40px;">
-<label for="filtro-menu" style="font-weight:bold; font-size: 1.2em;">Filtrar por categoría:</label>
-<select id="filtro-menu" onchange="filtrarMenu()" style="padding: 8px 12px; margin-left: 10px; font-size: 1em; border-radius: 6px;">
-<option value="todo">Mostrar todo</option>
-<option value="Café">Café</option>
-<option value="Bebidas">Bebidas</option>
-<option value="Postres">Postres</option>
-<option value="Meriendas">Meriendas</option>
-<option value="Snacks para mascotas">Snacks para mascotas</option>
-<option value="Combos">Combos</option>
-</select>
+
+
+<section id="menu">
+<h2>☕ Menú Destacado</h2>
+<div id="filtro-botones" style="text-align:center; margin: 30px 0;">
+<button onclick="mostrarCategoria('todo')">Mostrar Todo</button>
+<button onclick="mostrarCategoria('Café')">Café</button>
+<button onclick="mostrarCategoria('Bebidas')">Bebidas</button>
+<button onclick="mostrarCategoria('Postres')">Postres</button>
+<button onclick="mostrarCategoria('Meriendas')">Meriendas</button>
+<button onclick="mostrarCategoria('Snacks para mascotas')">Snacks para mascotas</button>
+<button onclick="mostrarCategoria('Combos')">Combos</button>
 </div>
+<style>
+  #filtro-botones button {
+    background-color: #ffb74d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 6px;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  #filtro-botones button:hover {
+    background-color: #e69138;
+  }
+  body.dark-mode #filtro-botones button {
+    background-color: #444;
+    color: #f5f5f5;
+  }
+  body.dark-mode #filtro-botones button:hover {
+    background-color: #666;
+  }
+</style>
 <script>
-function filtrarMenu() {
-  const seleccion = document.getElementById("filtro-menu").value;
+function mostrarCategoria(categoria) {
   const secciones = document.querySelectorAll("#menu h3");
   secciones.forEach(sec => {
     const contenedor = sec.nextElementSibling;
     if (!contenedor || !contenedor.classList.contains("menu-grid")) return;
-    const titulo = sec.textContent.replace("🍽 ", "").trim();
-    if (seleccion === "todo" || seleccion === titulo) {
+    const titulo = sec.textContent.replace("🍽", "").trim();
+    if (categoria === "todo" || categoria === titulo) {
       sec.style.display = "block";
       contenedor.style.display = "grid";
     } else {
@@ -220,8 +329,28 @@ function filtrarMenu() {
   });
 }
 </script>
-<section id="menu">
-<h2>☕ Menú Destacado</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="menu-grid">
 <div class="menu-item">
 <img alt="Taza de Latte de Avellana" loading="lazy" src="https://i.postimg.cc/6qJQH5zN/cafe-latte-con-avellana.jpg"/>
@@ -989,8 +1118,8 @@ function filtrarMenu() {
 <p>📌 Av. Instituto Politécnico Nacional, CDMX</p>
 <p>📞 Tel: 55 5493 6361</p>
 <p>📞 Tel: 55 3233 1624</p>
-<p>📧 Correo: coffeguau20412@gmail.com</p>
-<p>📸 Instagram: <strong>@coffeguau</strong></p>
+<p>📧 Correo: llanjo030@gmail.com</p>
+<p>📸 Instagram: <strong>@coffeeguauu</strong></p>
 </section>
 <footer>
 <p>© 2025 Café ¡Guauu! - Todos los derechos reservados</p>
@@ -1027,5 +1156,60 @@ function filtrarMenu() {
     toggle.onclick = () => document.body.classList.toggle('dark-mode');
     document.body.appendChild(toggle);
   </script>
+
+<script>
+  function mostrarSeccion(id) {
+    const secciones = document.querySelectorAll("section");
+    secciones.forEach(sec => {
+      if (sec.id === id) {
+        sec.style.display = "block";
+      } else {
+        sec.style.display = "none";
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll("nav a");
+    links.forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").replace("#", "");
+        mostrarSeccion(targetId);
+        history.pushState(null, "", "#" + targetId);
+      });
+    });
+
+    // Mostrar sección inicial según hash o default
+    const hash = window.location.hash.replace("#", "") || "bienvenida";
+    mostrarSeccion(hash);
+  });
+</script>
+
+<style>
+  .boton-flotante {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #ffb74d;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1001;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .boton-flotante {
+      display: block;
+    }
+  }
+</style>
+
 </body>
 </html>
