@@ -4,8 +4,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Café pet-friendly en CDMX. Disfruta bebidas y comida con tu lomito en Café ¡Guauu!." name="description"/>
-<title>Café ¡Guauu!</title>
+<meta content="Café pet-friendly en CDMX. Disfruta bebidas y comida con tu lomito en Cofee ¡Guauu!." name="description"/>
+<title>Cofee ¡Guauu!</title>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
 
@@ -29,7 +29,7 @@
     }
 
     header {
-      background-image: url('https://i.postimg.cc/4d85tq1t/cafe-s-de-gatos-cdmx.jpg');
+      background-image: url('https://cdn.royalcanin-weshare-online.io/zlY7qG0BBKJuub5q1Vk6/v1/59-es-l-golden-running-thinking-getting-dog-beneficios');
       background-size: cover;
       background-position: center;
       color: white;
@@ -383,6 +383,7 @@ function mostrarCategoria(categoria) {
 </div>
 <h3 style="text-align:center; margin-top:50px; color:#5d4037;">🍽 Café</h3><div class="menu-grid">
 <div class="menu-item">
+<img alt="Expresso sencillo" loading="Lazy" scr="https://www.recetasderechupete.com/wp-content/uploads/2021/04/cafe-expresso-2.jpg">
 <div>
 <h3>Espresso sencillo</h3>
 <p>Intenso, para puristas</p>
@@ -390,6 +391,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Americano" loading="Lazy" scr="https://excelso77.com/wp-content/uploads/2024/05/por-que-el-cafe-americano-se-llama-asi-te-lo-contamos.webp">
 <div>
 <h3>Americano</h3>
 <p>Ligero, el clásico diario</p>
@@ -397,6 +399,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Late" loading="Lazy" scr="https://www.cabucoffee.com/newimages/Guia-Latte.jpg">
 <div>
 <h3>Latte clásico</h3>
 <p>Suave y equilibrado</p>
@@ -404,6 +407,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Cappuchino" loading="Lazy" scr="https://static.bainet.es/clip/8eff3335-bc0b-49d7-b15d-c2da05ddaf9d_source-aspect-ratio_1600w_0.jpg">
 <div>
 <h3>Cappuccino</h3>
 <p>Espuma rica y textura cremosa</p>
@@ -411,6 +415,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Mocha" loading="Lazy" scr="https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Mocha-1fc71f7.png?quality=90&resize=708,643">
 <div>
 <h3>Mocha Guauu</h3>
 <p>Café + chocolate, perfecto para dulceros</p>
@@ -418,6 +423,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Mocha" loading="Lazy" scr="https://www.averiecooks.com/wp-content/uploads/2017/11/caramelmacchiato-18.jpg">
 <div>
 <h3>Caramel Macchiato</h3>
 <p>Vainilla, leche vaporizada y caramelo</p>
@@ -425,6 +431,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Late de temporada" loading="Lazy" scr="https://www.shutterstock.com/image-photo/coffee-cups-christmas-tree-star-260nw-2533048543.jpg">
 <div>
 <h3>Latte de temporada</h3>
 <p>Sabores especiales: calabaza, vainilla, maple</p>
@@ -432,6 +439,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Cold Brew premium" loading="Lazy" scr="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSow5TvR2THvfnjpgySH3yxE69iGpDAUQy14g&s">
 <div>
 <h3>Cold Brew premium</h3>
 <p>Café filtrado en frío por 12h</p>
@@ -439,6 +447,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Cold Brew premium" loading="Lazy" scr="https://cdn.loveandlemons.com/wp-content/uploads/2025/07/affogato.jpg">
 <div>
 <h3>Affogato (café con helado)</h3>
 <p>Espresso sobre bola de helado</p>
@@ -446,6 +455,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Flat White" loading="Lazy" scr="https://www.hola.com/horizon/square/9e7843865d2f-flat-adobe-t.jpg">
 <div>
 <h3>Flat White</h3>
 <p>Espresso doble con microespuma de leche</p>
@@ -453,6 +463,7 @@ function mostrarCategoria(categoria) {
 </div>
 </div>
 <div class="menu-item">
+<img alt="Latte con leche vegetal" loading="Lazy" scr="https://yosoyvegetal.com/wp-content/uploads/2021/09/choco-latte.jpg">
 <div>
 <h3>Latte con leche vegetal</h3>
 <p>Almendra, avena o coco (elige una)</p>
