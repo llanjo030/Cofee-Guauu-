@@ -29,7 +29,7 @@
     }
 
     header {
-      background-image: url('https://i.postimg.cc/4d85tq1t/cafe-s-de-gatos-cdmx.jpg');
+      background-image: url('https://www.google.com/imgres?q=perro&imgurl=https%3A%2F%2Fcdn.royalcanin-weshare-online.io%2FzlY7qG0BBKJuub5q1Vk6%2Fv1%2F59-es-l-golden-running-thinking-getting-dog-beneficios&imgrefurl=https%3A%2F%2Fwww.royalcanin.com%2Fes%2Fdogs%2Fthinking-of-getting-a-dog%2Fbeneficios-de-tener-un-perro&docid=I9mGRX9pTRqW7M&tbnid=BHoGas2gBqXIFM&vet=12ahUKEwjxn86anaSRAxWQJ0QIHWzHAmEQM3oECBkQAA..i&w=2500&h=1071&hcb=2&ved=2ahUKEwjxn86anaSRAxWQJ0QIHWzHAmEQM3oECBkQAA');
       background-size: cover;
       background-position: center;
       color: white;
