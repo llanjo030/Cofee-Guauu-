@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="utf-8"/>
@@ -383,6 +383,7 @@ function mostrarCategoria(categoria) {
 </div>
 <h3 style="text-align:center; margin-top:50px; color:#5d4037;">🍽 Café</h3><div class="menu-grid">
 <div class="menu-item">
+    <img alt="Expreso sencillo" loading="lazy" src="https://www.google.com/imgres?q=espresso%20sencillo&imgurl=https%3A%2F%2Fcdn.recetasderechupete.com%2Fwp-content%2Fuploads%2F2022%2F01%2FExpresso-macchiato.jpg&imgrefurl=https%3A%2F%2Fwww.abc.es%2Frecetasderechupete%2Fcomo-hacer-un-cafe-espresso-macchiato%2F45861%2F&docid=YFygp7vBAzx5BM&tbnid=0GU9i5LAry7RAM&vet=12ahUKEwj-q8vtnqSRAxXBJ0QIHeIIHEEQM3oECBkQAA..i&w=1400&h=966&hcb=2&ved=2ahUKEwj-q8vtnqSRAxXBJ0QIHeIIHEEQM3oECBkQAA"/>
 <div>
 <h3>Espresso sencillo</h3>
 <p>Intenso, para puristas</p>
