@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Café pet-friendly en CDMX. Disfruta bebidas y comida con tu lomito en Café ¡Guauu!." name="description"/>
+<meta content="Café pet-friendly en CDMX. Disfruta bebidas y comida con tu lomito en Cofee ¡Guauu!." name="description"/>
 <title>Café ¡Guauu!</title>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
@@ -239,7 +239,7 @@ body.dark-mode .menu-item {
 </head>
 <body>
 <header>
-<h1>🐶 Café ¡Guauu!</h1>
+<h1>🐶 Cofee ¡Guauu!</h1>
 <p>Donde el café y las mascotas se encuentran</p>
 </header>
 <nav>
@@ -250,7 +250,7 @@ body.dark-mode .menu-item {
 </nav>
 <section id="bienvenida">
 <h2>Bienvenidos</h2>
-<p style="text-align:center;">En Café ¡Guauu! celebramos el amor por el café y por los animales. Nuestra cafetería pet-friendly te espera con un ambiente único, productos de calidad y espacio para que tu lomito disfrute contigo.</p>
+<p style="text-align:center;">En Cofee ¡Guauu! celebramos el amor por el café y por los animales. Nuestra cafetería pet-friendly te espera con un ambiente único, productos de calidad y espacio para que tu lomito disfrute contigo.</p>
 
 <div style="margin-top: 40px; text-align: center;">
 
